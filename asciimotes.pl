@@ -20,7 +20,7 @@ use warnings;
 
 my $SCRIPTNAME = 'Asciimotes';
 my $AUTHOR = 'R2robot';
-my $VERSION = '0.1';
+my $VERSION = '0.2.0';
 my $LICENSE = 'GPL3';
 my $DESCRIPTION = 'Text based emotes';
 
@@ -30,6 +30,7 @@ if(!weechat::register($SCRIPTNAME, $AUTHOR, $VERSION, $LICENSE, $DESCRIPTION, ""
 
 
 my %emotes  = (
+    army       => '(-(-_(-_-)_-)-)',
     cat        => '(= ФェФ=)',
     cry        => '(╥﹏╥)',
     cute       => '(｡◕‿‿◕｡)',
@@ -49,6 +50,7 @@ my %emotes  = (
     devious    => 'ಠ‿ಠ',
     facepalm   => '(－‸ლ)',
     fiteme     => 'ლ(｀ー´ლ)',
+    fingers    => '╭∩╮(Ο_Ο)╭∩╮',
     fuckyou    => '┌П┐(ಠ_ಠ)',
     loda       => 'ಠ_ಠ',
     lol        => 'L(° O °L)',
