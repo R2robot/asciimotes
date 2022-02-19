@@ -20,7 +20,7 @@ use warnings;
 
 my $SCRIPTNAME = 'Asciimotes';
 my $AUTHOR = 'R2robot';
-my $VERSION = '0.2.0';
+my $VERSION = '0.3.0';
 my $LICENSE = 'GPL3';
 my $DESCRIPTION = 'Text based emotes';
 
@@ -71,6 +71,7 @@ my %emotes  = (
     thicc      => 'ㄒ卄丨匚匚',
     ethicc     => '乇乂ㄒ尺卂 ㄒ卄丨匚匚',
     woo        => '＼(^o^)／',
+    whip       => '( ﾟ∀ﾟ)ｱﾊﾊハハﾉヽﾉヽﾉヽﾉ ＼ / ＼/ ＼',
 );
 
 
